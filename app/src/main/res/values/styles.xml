@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/main_black</item>
+        <item name="colorPrimaryDark">@color/main_background</item>
+        <item name="colorAccent">@color/main_black</item>
+
+        <item name="android:textColorPrimary">@color/main_black</item>
+        <item name="android:editTextColor">@color/main_black</item>
+        <item name="android:textColorHint">@color/main_background</item>
+    </style>
+
+    <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabMaxWidth">72dp</item>
+        <item name="tabIndicatorColor">?attr/colorAccent</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">2dp</item>
+        <item name="tabPaddingEnd">2dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+
+
+    <!-- Question - option textappearance-->
+    <style name="QuestionOptionTextAppearance">
+        <item name="android:textColor">@color/main_white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- FriendSearch list item textappearance-->
+    <style name="ListItemFriendSearch">
+        <item name="android:textColor">@color/main_white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Addfriend edit text appearance  -->
+    <style name="SearchEditTextAppearance" parent="android:Widget.EditText">
+        <item name="colorControlNormal">@color/main_orange</item>
+        <item name="colorControlActivated">@color/main_orange</item>
+        <item name="android:textColor">@color/main_red</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SearchEditText" parent="android:Widget.EditText">
+        <item name="colorControlNormal">@color/main_orange</item>
+        <item name="colorControlActivated">@color/main_orange</item>
+    </style>
+
+</resources>

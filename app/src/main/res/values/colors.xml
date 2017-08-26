@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navigationBarColor">#000000</color>
+    <color name="main_background">#212121</color>
+    <color name="dark_grey">#CC2B2B2B</color>
+    <color name="main_orange">#f89832</color>
+    <color name="main_orange_border">#c26f16</color>
+    <color name="main_white">#ffffff</color>
+    <color name="main_red">#ffff0000</color>
+    <color name="main_black">#000000</color>
+    <color name="loader_background">#CCffffff</color>
+    <color name="main_grey">#D2D2D2</color>
+    <color name="option_correct_background">#FF07D200</color>
+    <color name="option_wrong_background">#ffff0000</color>
+    <color name="option_pass_background">#FF2868FF</color>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Obarey_v03</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_start_h3">Hoşgeldiniz, lütfen eposta adresinizi girin.</string>
+    <string name="activity_start_h3_info">(Eğer kayıtlı değilseniz hesabınızı oluşturacağız.)</string>
+    <string name="activity_start_step2_h3_register">Şifrenizi oluşturun.</string>
+    <string name="activity_start_step2_h3_login">Tekrar hoşgeldiniz, şifrenizi girin.</string>
+    <string name="btn_continue">Devam</string>
+    <string name="hint_password">Şifre..</string>
+    <string name="hint_password_again">Şifre tekrar..</string>
+    <string name="hint_email">Eposta..</string>
+    <string name="loading_spinner">Yükleniyor..</string>
+    <string name="form_error_email_empty">Eposta boş bırakılamaz.</string>
+    <string name="form_error_email_regex">Eposta adresi geçersiz.</string>
+    <string name="form_error_password_empty">Şifre boş bırakılamaz.</string>
+    <string name="form_error_password_match">Şifreler aynı değil.</string>
+    <string name="form_error_password_invalid">Şifre yanlış.</string>
+    <string name="header_tab_games">OYUNLARIM</string>
+    <string name="header_tab_start_game">OYUN BAŞLAT</string>
+    <string name="header_tab_game_requests">OYUN İSTEKLERİ</string>
+    <string name="header_tab_friend_requests">ARKADAŞLIK İSTEKLERİ</string>
+    <string name="friend_search_placeholder">Kullanıcı adı yazın..</string>
+    <string name="no_search_result">Aramanızla eşleşen sonuç bulunamadı.</string>
+    <string name="n_result_found">sonuç bulundu.</string>
+    <string name="game_popup_correct">Doğru Cevap!</string>
+    <string name="game_popup_wrong">Yanlış Cevap!</string>
+    <string name="game_popup_timeup">Süre Doldu!</string>
+    <string name="game_popup_pass">Pas Geçitiniz!</string>
+</resources>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_body">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:paddingRight="15dp">
+
+        <!-- tur info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15.TUR"
+                android:id="@+id/game_header_round_count"
+                android:layout_gravity="center_horizontal"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <!-- game info -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#jesterinquietplace"
+                android:id="@+id/game_header_user_name"
+                android:drawableLeft="@drawable/ico_game_header_user"
+                android:drawableStart="@drawable/ico_game_header_user"
+                android:gravity="center_vertical"
+                android:textSize="13sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16"
+                android:textSize="20sp"
+                android:id="@+id/game_header_timer"
+                android:drawableRight="@drawable/ico_timer"
+                android:drawableEnd="@drawable/ico_timer"
+                android:gravity="center_vertical"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <!-- soru ve cevap  wrapper -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:id="@+id/question_container">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/dark_grey"
+                android:layout_marginTop="10dp"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question"
+                    android:textColor="@color/main_white"
+                    android:text="Türkiye' nin en büyük ili aşağıdaki şehirlerden hangisine komşudur?"
+                    android:textAppearance="@style/QuestionOptionTextAppearance" />
+            </LinearLayout>
+
+            <!-- şıklar A -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:id="@+id/option_a"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option_a_content"
+                    android:text="Ankara"
+                    android:textAppearance="@style/QuestionOptionTextAppearance" />
+            </LinearLayout>
+
+            <!-- B -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:id="@+id/option_b"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option_b_content"
+                    android:textColor="@color/main_white"
+                    android:text="İstanbul"
+                    android:textAppearance="@style/QuestionOptionTextAppearance"
+                    />
+            </LinearLayout>
+
+            <!-- şıklar C -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:id="@+id/option_c"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option_c_content"
+                    android:textColor="@color/main_white"
+                    android:text="Uşak"
+                    android:textAppearance="@style/QuestionOptionTextAppearance"
+                    />
+            </LinearLayout>
+
+            <!-- şıklar D -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:id="@+id/option_d"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option_d_content"
+                    android:textColor="@color/main_white"
+                    android:text="Muş"
+                    android:textAppearance="@style/QuestionOptionTextAppearance"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- bottom buttons -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:padding="15dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_action_pas"
+            android:text="PAS"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_action_fifty_fifty"
+            android:layout_alignParentTop="false"
+            android:layout_toLeftOf="@+id/game_action_double_answer"
+            android:layout_toStartOf="@+id/game_action_double_answer"
+            android:text="%50"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_action_double_answer"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="x2"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_grey"
+        android:id="@+id/game_popup_overlay"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:id="@+id/game_popup_content"
+            android:background="@color/option_correct_background"
+            android:padding="30dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doğru Cevap!"
+                android:textSize="22sp"
+                android:id="@+id/popup_text"
+                android:textColor="@color/main_white" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
